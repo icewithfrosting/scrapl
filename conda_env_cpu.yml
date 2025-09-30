@@ -1,0 +1,31 @@
+name: scrapl
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - auraloss
+    - black
+    - dasp-pytorch
+    - einops
+    - hypy-utils
+    - jsonargparse[signatures]
+    - librosa
+    - lightning
+    - matplotlib
+    - msclap
+    - nnaudio
+    - numpy
+    - nvitop
+    - pandas
+    - pip-chill
+    - pyloudnorm
+    - scipy
+    - torch
+    - torchaudio
+    - torchvision
+    - tensorboard
+    - uv
+    - wandb
+    - git+https://github.com/noahgolmant/pytorch-hessian-eigenthings.git

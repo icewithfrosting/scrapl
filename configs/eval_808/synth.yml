@@ -1,0 +1,12 @@
+class_path: eval_808.synths.DDSP808Synth
+init_args:
+  sr: 44100
+  num_samples: 44100
+  buffer_noise: true
+  buffer_size: 44100
+#  buffer_noise: false
+  J_cqt: 9
+  Q_cqt: 12
+  hop_len: 256
+  delta_min: -2048
+  delta_max: 2048
